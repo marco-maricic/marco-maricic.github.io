@@ -1,0 +1,58 @@
+body {
+    overflow: hidden;
+    position: relative;
+    font-family: "Hi Melody", "cursive";
+    background: linear-gradient(135deg, #FFE5EC, #FB6F92) no-repeat;
+    min-height: 100vh;
+}
+
+a{
+    font-family: "Hi Melody", "cursive";
+    font-weight: bold;
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+.myDiv{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.math{
+    width: 750px;
+}
+
+.yesButton{
+    background-color: springgreen;
+    border: 1px gray solid;
+    border-radius: 10px;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.noButton{
+    background-color: red;
+    border: 1px gray solid;
+    border-radius: 10px;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.confirmButton{
+    background-color: springgreen;
+    border: 1px gray solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.returnButton{
+    background-color: red;
+    border: 1px gray solid;
+    border-radius: 10px;
+    color: black;
+}
